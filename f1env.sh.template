@@ -1,0 +1,3 @@
+# F1 Environment Variables
+export F1SIM_HOME="<F1SIM_HOME>"
+export PYTHONPATH="$F1SIM_HOME/lib:$PYTHONPATH"
