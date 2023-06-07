@@ -34,7 +34,7 @@ oracledb:
     dbusername: "<dbusername>"
     dbpassword: "<dbpassword>"
     dburl: "<dburl_dns>"
-    dbwalletdir: "/home/opc/f1sim/dataingestion/Wallet"
+    dbwalletdir: "/home/opc/FormulaPi_Lab2_dataingestion/Wallet"
     dbwalletpassword: "<dbwalletpassword>"
     poolsize: 10
     lapdata_info: "BEGIN insert INTO \"LAPDATA\" (ID, \"DATA\") VALUES (SYS_GUID(), :body); END;"
