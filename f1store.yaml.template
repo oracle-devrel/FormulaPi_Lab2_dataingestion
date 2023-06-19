@@ -1,12 +1,14 @@
 gamehost: tf
 devicename: default
-version: 2022
+# version of the F1 game
+# [ 2021 | 2022 | 2023 ]
+version: 2023
 
-# store: [none | oracledb | local | rabbitmq]
+# store: [ none | oracledb | local | rabbitmq ]
 # use none value for the store config if not wanting to save the data (but have an end-point and console debugging only)
 # use rabbitmq value for the store config if wanting to introduce Store And Forward
 store: rabbitmq
-# forward: [none | oracledb | local]
+# forward: [ none | oracledb | local ]
 # use none value for the forward config if not wanting to save the data directly
 # otherwise will read from rabbitmq (only) and forward to oracledb or local
 forward: oracledb
