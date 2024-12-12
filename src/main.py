@@ -393,7 +393,6 @@ def save_motiondata_packet(deviceip, clientip, ts, stream, handler, packet):
                         "m_yaw": packet.m_car_motion_data[0].m_yaw,
                         "m_pitch": packet.m_car_motion_data[0].m_pitch,
                         "m_roll": packet.m_car_motion_data[0].m_roll,
-                        "m_front_wheels_angle": packet.m_front_wheels_angle,
                     };
                 else:
                     motion_data = packet.to_dict()
